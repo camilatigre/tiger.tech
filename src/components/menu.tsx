@@ -11,7 +11,7 @@ const Menu = () => (
       <Link href="/projects">
         <a className="text-white p-2">Projects</a>
       </Link>
-      <Link href="/pdf/resume.pdf">
+      <Link href="/pdfs/resume.pdf">
         <a className="bg-orange-500 p-2 rounded text-white">Download CV</a>
       </Link>
     </nav>
