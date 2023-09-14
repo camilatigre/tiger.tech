@@ -11,7 +11,7 @@ const Menu = () => (
       <Link href="/projects">
         <a className="text-white p-2">Projects</a>
       </Link>
-      <Link href="/pdfs/resume.pdf">
+      <Link href="https://portifolio-bucket.s3.sa-east-1.amazonaws.com/resume.pdf">
         <a className="bg-orange-500 p-2 rounded text-white">Download CV</a>
       </Link>
     </nav>
