@@ -1,8 +1,11 @@
+/* eslint-disable react/jsx-key */
 import React from 'react';
+
+import Header from '../components/header';
 
 const Index = () => (
   <>
-    <div>qweqwe</div>
+    <Header />
   </>
 );
 

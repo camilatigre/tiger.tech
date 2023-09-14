@@ -1,4 +1,9 @@
 @tailwind base;
+@layer base {
+  html {
+    font-family: "Poppins", "Helvetica Neue", Arial;
+  }
+}
 
 a {
   @apply text-blue-700;
