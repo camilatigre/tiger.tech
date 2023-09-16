@@ -5,11 +5,11 @@ import Link from 'next/link';
 const Menu = () => (
   <>
     <nav className="flex sm:justify-center space-x-4 m-5">
-      <Link href="/">
-        <a className="text-white p-2">Home</a>
+      <Link href="/" className="text-white p-2">
+        Home
       </Link>
-      <Link href="/projects">
-        <a className="text-white p-2">Projects</a>
+      <Link href="/projects" className="text-white p-2">
+        Projects
       </Link>
       <a
         href="/files/resume.pdf"
