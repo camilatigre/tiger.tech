@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-key */
 import React from 'react';
 
 import Link from 'next/link';
@@ -6,23 +5,12 @@ import Link from 'next/link';
 const Logo = () => (
   <>
     <div className="flex items-start my-3">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        strokeWidth="1.5"
-        stroke="currentColor"
-        className="w-10 h-10 mr-3 mt-0.5 text-white "
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M8.25 3v1.5M4.5 8.25H3m18 0h-1.5M4.5 12H3m18 0h-1.5m-15 3.75H3m18 0h-1.5M8.25 19.5V21M12 3v1.5m0 15V21m3.75-18v1.5m0 15V21m-9-1.5h10.5a2.25 2.25 0 002.25-2.25V6.75a2.25 2.25 0 00-2.25-2.25H6.75A2.25 2.25 0 004.5 6.75v10.5a2.25 2.25 0 002.25 2.25zm.75-12h9v9h-9v-9z"
-        />
-      </svg>
-      <Link href="/" className="text-white uppercase font-bold my-2">
-        Camila Tigre
-      </Link>
+      <img
+        className="logo"
+        src="https://drive.google.com/uc?id=1chvz5mH1B8c_ceErCygEgCqd6U2w4xT5"
+        alt=""
+      />
+      <Link href="/" className="text-white uppercase font-bold my-2"></Link>
     </div>
   </>
 );

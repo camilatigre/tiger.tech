@@ -8,6 +8,11 @@ a:hover {
   @apply underline;
 }
 
+.logo {
+  width: 100px
+}
+
 @tailwind components;
 
 @tailwind utilities;
+

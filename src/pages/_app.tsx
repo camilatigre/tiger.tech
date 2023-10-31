@@ -7,7 +7,7 @@ import '../styles/main.css';
 import '../styles/prism-a11y-dark.css';
 import localFont from 'next/font/local';
 
-const myFont = localFont({ src: './Poppins-Regular.ttf' });
+const myFont = localFont({ src: '../assets/poppins-regular.ttf' });
 
 const MyApp = ({ Component, pageProps }: AppProps) => (
   <main className={myFont.className}>

@@ -8,9 +8,9 @@ const Menu = () => (
       <Link href="/" className="text-white p-2">
         Home
       </Link>
-      <Link href="/projects" className="text-white p-2">
+      {/* <Link href="/projects" className="text-white p-2">
         Projects
-      </Link>
+      </Link> */}
       <a
         href="/files/resume.pdf"
         className="bg-orange-500 p-2 rounded text-white"

@@ -1,20 +1,44 @@
 /* eslint-disable react/jsx-key */
 import React from 'react';
 
+import Link from 'next/link';
+
 import Header from '../components/header';
 
 const Index = () => {
   return (
-    <div className="bg-black-300 h-screen text-white">
+    <div className="bg-black-300 text-white">
       <Header />
-      <div className="w-4/5 container mx-auto">
-        <p className="text-lg pb-1">Hi, I am</p>
-        <p className="text-xl text-orange-500 font-bold">Camila Tigre</p>
-        <h1 className="text-3xl font-bold uppercase">
-          Software Developer & <br />
-          Data Apprentice
-        </h1>
-      </div>
+
+      <main className="w-4/5 container mx-auto h-auto flex justify-between">
+        <div className="w-2/5">
+          <p className="text-md">Hi, I am</p>
+          <p className="text-xl text-orange-500 font-bold">Camila Tigre</p>
+          <h1 className="text-3xl font-bold uppercase pb-10">
+            Software Developer
+          </h1>
+          <p className="text-sm mb-5">
+            Vivamus sed porta tellus. Vivamus eget metus dictum, tincidunt leo
+            eu, consequat nibh. Suspendisse vestibulum scelerisque facilisis.
+            Pellentesque in porttitor purus. Nulla luctus leo nec sapien rutrum
+            finibus. In mollis neque sit amet ipsum euismod, ut mattis massa
+            sagittis. Nulla facilisi.
+          </p>
+          <Link
+            href="https://www.linkedin.com/in/camilatigre/"
+            className="bg-orange-500 p-2 rounded text-white"
+          >
+            Contact Me
+          </Link>
+        </div>
+        <div className="w-2/5 profile">
+          <img
+            width={400}
+            src="https://drive.google.com/uc?id=1NgIKI_kZbuFFTIu12cdunn9a0plhOv2p"
+            alt="profile picture from camila"
+          />
+        </div>
+      </main>
     </div>
   );
 };
