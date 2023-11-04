@@ -1,15 +1,14 @@
 import React from 'react';
 
+import Image from 'next/image';
 import Link from 'next/link';
+
+import logo from '../assets/logo-white.png';
 
 const Logo = () => (
   <>
     <div className="flex items-start my-3">
-      <img
-        className="logo"
-        src="https://drive.google.com/uc?id=1chvz5mH1B8c_ceErCygEgCqd6U2w4xT5"
-        alt=""
-      />
+      <Image src={logo} alt="logo" width={150} />
       <Link href="/" className="text-white uppercase font-bold my-2"></Link>
     </div>
   </>

@@ -1,13 +1,16 @@
 /* eslint-disable react/jsx-key */
+
 import React from 'react';
 
+import Image from 'next/image';
 import Link from 'next/link';
 
+import profilePic from '../assets/profile.jpeg';
 import Header from '../components/header';
 
 const Index = () => {
   return (
-    <div className="bg-black-300 text-white">
+    <div className="bg-black-300 text-white h-screen">
       <Header />
 
       <main className="w-4/5 container mx-auto h-auto flex justify-between">
@@ -32,11 +35,7 @@ const Index = () => {
           </Link>
         </div>
         <div className="w-2/5 profile">
-          <img
-            width={400}
-            src="https://drive.google.com/uc?id=1NgIKI_kZbuFFTIu12cdunn9a0plhOv2p"
-            alt="profile picture from camila"
-          />
+          <Image src={profilePic} alt="profile picture from camila" />
         </div>
       </main>
     </div>
