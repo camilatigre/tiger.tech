@@ -1,6 +1,6 @@
 [build]
   publish = "out"
-  command = "next start
+  command = "next start"
 
 [build.environment]
   NETLIFY_NEXT_PLUGIN_SKIP = "true"
