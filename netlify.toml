@@ -1,7 +1,7 @@
 [build]
   publish = "out"
-  command = "next start"
+  command = "npm run build-prod"
 
 [build.environment]
   NETLIFY_NEXT_PLUGIN_SKIP = "true"
-  NETLIFY_DEBUG = "true"
+  
