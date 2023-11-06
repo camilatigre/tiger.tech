@@ -1,7 +1,9 @@
 [build]
+  command = "run-s clean build export"
   publish = "out"
-  command = "npm run build-prod"
 
 [build.environment]
   NETLIFY_NEXT_PLUGIN_SKIP = "true"
-  
+
+[build.post]
+  command = "next start"
