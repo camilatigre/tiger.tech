@@ -5,7 +5,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import profilePic from '../assets/profile.jpeg';
+import profilePic from '../assets/profile.png';
 import Header from '../components/header';
 
 const Index = () => {
@@ -21,11 +21,11 @@ const Index = () => {
             Software Developer
           </h1>
           <p className="text-sm mb-5">
-            Vivamus sed porta tellus. Vivamus eget metus dictum, tincidunt leo
-            eu, consequat nibh. Suspendisse vestibulum scelerisque facilisis.
-            Pellentesque in porttitor purus. Nulla luctus leo nec sapien rutrum
-            finibus. In mollis neque sit amet ipsum euismod, ut mattis massa
-            sagittis. Nulla facilisi.
+            {`Driven and results-oriented with a knack for bridging the gap
+            between tech and business. I'm a pro at communicating complex
+            technical stuff in a way that even non-tech folks can grasp. And
+            when it comes to solving problems, I'm always up for the challenge,
+            relishing the opportunity to find creative solutions.`}
           </p>
           <Link
             href="https://www.linkedin.com/in/camilatigre/"
